@@ -41,4 +41,4 @@ if __name__ == "__main__":
     print("Duplicated Rows:\n", df[df.duplicated(keep=False)])
 
     # Print value counts for the 'health_status' column
-    print("Health Status Counts:\n", df["health_status"].value_counts())
+    print("Health Status Counts:\n", df["health_status"].value_counts()) [1]
